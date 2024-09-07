@@ -1,0 +1,128 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "Bonjour",
+          "Salut",
+          "Hello",
+          "Hey",
+          "Coucou"
+        ],
+        "responses": [
+          "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+          "Salut ! Que puis-je faire pour vous ?"
+        ]
+      },
+      {
+        "tag": "add_todo",
+        "patterns": ["Ajouter une tâche", "Ajouter une tâche à faire", "Ajouter au todo", "Nouvelle tâche"],
+        "responses": ["Quelle tâche voulez-vous ajouter ?"]
+      },
+      {
+        "tag": "show_todos",
+        "patterns": ["Afficher les tâches", "Voir mes tâches", "Montre-moi la liste des tâches", "Montre-moi mes tâches"],
+        "responses": ["Voici vos tâches à faire :"]
+      },
+      {
+        "tag": "create_note",
+        "patterns": ["Créer une note", "Prendre une note", "Faire une note", "Note"],
+        "responses": ["Que voulez-vous écrire dans votre note ?"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Merci",
+          "Merci beaucoup",
+          "C'est gentil",
+          "Je vous remercie"
+        ],
+        "responses": [
+          "Avec plaisir !",
+          "De rien !",
+          "Je suis là pour vous aider."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Aide",
+          "J'ai besoin d'aide",
+          "Pouvez-vous m'aider ?",
+          "Assistance"
+        ],
+        "responses": [
+          "Comment puis-je vous aider ?",
+          "Que puis-je faire pour vous ?",
+          "Dites-moi ce dont vous avez besoin."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Au revoir",
+          "Quitter",
+          "Fin",
+          "À bientôt"
+        ],
+        "responses": [
+          "Au revoir !",
+          "À bientôt !",
+          "Passez une bonne journée !"
+        ]
+      }, {
+        "tag": "weather",
+        "patterns": [
+          "Quel temps fait-il ?",
+          "Donne-moi la météo",
+          "Quel est le climat aujourd'hui ?",
+          "Fait-il beau ?"
+        ],
+        "responses": [
+          "Veuillez préciser votre localisation pour que je puisse vous donner la météo.",
+          "Où êtes-vous actuellement pour que je vérifie la météo ?"
+        ]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "Quelle heure est-il ?",
+          "Donne-moi l'heure",
+          "Heure actuelle",
+          "Il est quelle heure ?"
+        ],
+        "responses": [
+          "Il est actuellement [heure].",
+          "L'heure actuelle est [heure]."
+        ]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "Quelle est la date d'aujourd'hui ?",
+          "Nous sommes quel jour ?",
+          "Donne-moi la date",
+          "C'est quoi la date aujourd'hui ?"
+        ],
+        "responses": [
+          "Nous sommes le [date].",
+          "La date d'aujourd'hui est [date]."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Raconte-moi une blague",
+          "Fais-moi rire",
+          "Une blague s'il te plaît",
+          "Dis-moi une blague"
+        ],
+        "responses": [
+          "Pourquoi les programmeurs confondent Halloween et Noël ? Parce que OCT 31 == DEC 25.",
+          "Quelle est la boisson préférée des développeurs ? Le Java.",
+          "Pourquoi le programmeur a-t-il quitté son travail ? Parce qu'il n'y avait pas assez de bytes."
+        ]
+      }
+    ]
+  }
+  
